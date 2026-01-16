@@ -4,10 +4,10 @@ from dune_client.query import QueryBase
 
 
 # Paste API Key
-DUNE_API_KEY = "pXltwiR3immA7TJsrjxdq17Dw2Nofih6"
+DUNE_API_KEY = "YOUR_KEY_HERE" # API key here
 
 # Paste the Query ID
-QUERY_ID = 6540302  
+QUERY_ID = YOUR_QUERY_ID # Every quary has one, it's the number in the url when you open your query  
 
 def download_dune_data():
     print("Initializing Dune Client...")
@@ -33,4 +33,5 @@ def download_dune_data():
         print(f"Details: {e}")
 
 if __name__ == "__main__":
+
     download_dune_data()    
