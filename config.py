@@ -1,5 +1,5 @@
 #Webscoket endpoint
-WSS_PROVIDER = "wss://eth-mainnet.g.alchemy.com/v2/WGDnTMPGNMqxoXSs8wrJ-"
+WSS_PROVIDER = "wss://eth-mainnet.g.alchemy.com/v2/ALCH_KEY_HERE" # Seems like Alchemy isnt cooperating currently, Infura and Quicknode don't seem to work either, might be free tier limitation 
 UNISWAP_V2_ROUTER = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
 
 MODEL_PATH = "mev_model.pkl"
@@ -18,4 +18,5 @@ UNISWAP_ABI = [
         "stateMutability": "payable",
         "type": "function"
     }
+
 ]
