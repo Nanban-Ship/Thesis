@@ -19,8 +19,6 @@ except FileNotFoundError:
 # Connect using AsyncWeb3
 w3 = AsyncWeb3(WebSocketProvider(config.WSS_PROVIDER))
 
-# (PoA Middleware removed because it's not needed for Mainnet)
-
 async def process_transaction(tx_hash):
     try:
         # Fetch full transaction data
@@ -98,4 +96,5 @@ def main():
         loop.close()
 
 if __name__ == "__main__":
+
     main()
